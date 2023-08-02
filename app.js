@@ -7,7 +7,10 @@ const PORT = 3004
 
 //mongoose.connect("mongodb://localhost:27017/abc")
 //mongoose.connect("mongodb://127.0.0.1:27017/abc")
-mongoose.connect("mongodb://192.168.0.106:27017/abc")
+//mongoose.connect("mongodb://192.168.0.106:27017/abc")
+mongoose.connect("mongodb://172.31.82.12:27017/abc")
+
+
     .then(() => { console.log("mongo connected") })
     .catch((err) => { console.log(err) })
 
